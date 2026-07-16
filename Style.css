@@ -1,0 +1,52 @@
+body {
+    background-color: #F9FAFB;
+    color: #374151;
+}
+
+
+h1 {
+    color: #1E3A8A;
+}
+
+
+nav {
+    background-color: #1E3A8A;
+}
+
+nav a {
+    color: white;
+}
+
+
+h2,
+h3,
+h4 {
+    color: #1E3A8A;
+}
+
+
+p {
+    color: #4B5563;
+}
+
+
+button {
+    background-color: #10B981;
+    color: white;
+}
+
+
+footer {
+    background-color: #111827;
+    color: white;
+}
+
+footer button {
+    background-color: #10B981;
+    color: white;
+}
+
+
+hr {
+    border-color: #D1D5DB;
+}
