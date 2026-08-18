@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post a Job - Job Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>JOB BOARD</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#find-job">Find Job</a></li>
+                <li><a href="post-job.html">Post Job</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="post-job-page">
+        <h1>Post a Job</h1>
+        <p class="subtitle">Find the best candidate for your team</p>
+
+        <form action="#" method="post" class="form-card">
+
+            <h2>Job Information</h2>
+
+            <div class="form-group">
+                <label for="job-title">Job title</label>
+                <input type="text" id="job-title" placeholder="Job name">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="job-category">Job category</label>
+                    <select id="job-category">
+                        <option>Web Development</option>
+                        <option>SOC Analyst</option>
+                        <option>Graphic Designer</option>
+                        <option>Video Editor</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="job-type">Job type</label>
+                    <select id="job-type">
+                        <option>Full-time</option>
+                        <option>Half-time</option>
+                        <option>Remote</option>
+                        <option>Internship</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="work-location">Work location</label>
+                <select id="work-location">
+                    <option>On-site</option>
+                    <option>Remote</option>
+                    <option>Hybrid</option>
+                </select>
+            </div>
+
+            <h2>Salary</h2>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="min-salary">Minimum salary</label>
+                    <input type="number" id="min-salary" placeholder="Enter minimum salary">
+                </div>
+                <div class="form-group">
+                    <label for="max-salary">Maximum salary</label>
+                    <input type="number" id="max-salary" placeholder="Enter maximum salary">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="job-description">Job description</label>
+                <textarea id="job-description" rows="6" placeholder="Describe the job and responsibilities..."></textarea>
+            </div>
+
+            <h2>Requirements</h2>
+
+            <div class="form-group">
+                <label for="skills">Skills</label>
+                <input type="text" id="skills" placeholder="Enter required skills">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="education">Education</label>
+                    <input type="text" id="education" placeholder="Enter required qualification">
+                </div>
+                <div class="form-group">
+                    <label for="experience">Experience</label>
+                    <input type="text" id="experience" placeholder="Enter required experience">
+                </div>
+            </div>
+
+            <h2>Company Details</h2>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="company-name">Company name</label>
+                    <input type="text" id="company-name" placeholder="Company name">
+                </div>
+                <div class="form-group">
+                    <label for="company-location">Location</label>
+                    <input type="text" id="company-location" placeholder="Enter location">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="company-email">Company email</label>
+                <input type="email" id="company-email" placeholder="Enter company email">
+            </div>
+
+            <div class="form-group">
+                <label for="company-description">Company description</label>
+                <textarea id="company-description" rows="6" placeholder="Describe the company..."></textarea>
+            </div>
+
+            <h2>Application Details</h2>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="deadline">Deadline</label>
+                    <input type="date" id="deadline">
+                </div>
+                <div class="form-group">
+                    <label for="app-email">Application email</label>
+                    <input type="email" id="app-email" placeholder="Enter application email">
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <input type="submit" value="Post Job">
+                <input type="reset" value="Clear Form">
+            </div>
+
+        </form>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="index.html#terms">Terms &amp; Conditions</a></li>
+            <li><a href="index.html#privacy">Privacy Policy</a></li>
+        </ul>
+        <p>&copy; 2026 Job Board. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
