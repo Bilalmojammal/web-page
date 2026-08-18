@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for Job - Job Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>JOB BOARD</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#find-job">Find Job</a></li>
+                <li><a href="post-job.html">Post Job</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="post-job-page">
+        <h1>Apply Portal</h1>
+        <p class="subtitle">Fill this form to apply for the job</p>
+
+        <form action="#" method="post" class="form-card">
+
+            <h2>Personal Information</h2>
+            <p>Enter your personal information</p>
+
+            <div class="form-group">
+                <label for="full-name">Full name</label>
+                <input type="text" id="full-name" placeholder="Enter name">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" placeholder="Enter number">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" placeholder="Address">
+            </div>
+
+            <div class="form-group">
+                <label for="city">City</label>
+                <select id="city">
+                    <option>Lahore</option>
+                    <option>Karachi</option>
+                    <option>Islamabad</option>
+                </select>
+            </div>
+
+            <h2>Education</h2>
+            <p>Enter your education</p>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="qualification">Qualification</label>
+                    <select id="qualification">
+                        <option>Matric</option>
+                        <option>Inter</option>
+                        <option>Graduation</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="degree">Degree</label>
+                    <input type="text" id="degree" placeholder="Enter your degree">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="institute">Institute</label>
+                <input type="text" id="institute" placeholder="Institute name">
+            </div>
+
+            <h2>Skill</h2>
+
+            <div class="form-group">
+                <label for="skill">Skill</label>
+                <input type="text" id="skill" placeholder="Enter your skill">
+            </div>
+
+            <h2>Experience</h2>
+
+            <div class="form-group">
+                <label for="experience">Years of experience</label>
+                <select id="experience">
+                    <option>1 year</option>
+                    <option>2 years</option>
+                    <option>3 years</option>
+                    <option>4 years</option>
+                </select>
+            </div>
+
+            <h2>Resume/CV</h2>
+
+            <div class="form-group">
+                <label for="resume">Resume/CV</label>
+                <input type="file" id="resume" accept=".pdf,.doc,.docx">
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="github">GitHub profile</label>
+                    <input type="url" id="github" placeholder="Username or link">
+                </div>
+                <div class="form-group">
+                    <label for="linkedin">LinkedIn profile</label>
+                    <input type="url" id="linkedin" placeholder="Username or link">
+                </div>
+            </div>
+
+            <h2>Cover Letter</h2>
+
+            <div class="form-group">
+                <label for="cover-letter">Cover letter</label>
+                <textarea id="cover-letter" rows="6" placeholder="Why should we hire you?..."></textarea>
+            </div>
+
+            <h2>Final Confirmation</h2>
+
+            <div class="form-checkbox">
+                <input type="checkbox" id="confirm" required>
+                <label for="confirm">I confirm that the information provided is correct.</label>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit">Submit</button>
+            </div>
+
+            <p class="thank-you-note">God bless you</p>
+
+        </form>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="index.html#about">About Us</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="index.html#terms">Terms &amp; Conditions</a></li>
+            <li><a href="index.html#privacy">Privacy Policy</a></li>
+        </ul>
+        <p>&copy; 2026 Job Board. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
