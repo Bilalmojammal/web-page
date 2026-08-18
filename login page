@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job board </title>
+     <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <section>
+        <p>well come to the job board portal</p>
+        <h3>Login/signin</h3>
+        <from>
+            <input type="text" placeholder="enter your email">
+            <input type="password" placeholder="enter password">
+            <button type="login">login</button>
+        </from>
+
+    </section>
+</body>
+</html>
